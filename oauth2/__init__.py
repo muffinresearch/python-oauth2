@@ -35,7 +35,6 @@ try:
 except ImportError:
     from cgi import parse_qs, parse_qsl
 
-
 VERSION = '1.0' # Hi Blaine!
 HTTP_METHOD = 'GET'
 SIGNATURE_METHOD = 'PLAINTEXT'
